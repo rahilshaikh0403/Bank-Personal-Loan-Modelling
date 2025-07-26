@@ -1,57 +1,53 @@
-# 💰 Bank Personal Loan Modelling
+# 💰 Bank Personal Loan Modelling (Excel Analysis)
 
-A Machine Learning project to predict whether a customer will accept a personal loan offer based on demographic and financial data.
+A data analysis project using Microsoft Excel to explore customer demographics and financial data, with the goal of understanding the key factors influencing personal loan acceptance.
 
-## 📂 Project Overview
+## 📌 Objective
 
-This project uses customer data to build a classification model that can help banks target the right customers for personal loans, reducing marketing costs and improving conversion rates.
+To analyze customer data using Excel and pivot tables to identify patterns and trends that influence whether a customer accepts a personal loan offer.
 
-## 🧠 Objective
+## 📊 Dataset Overview
 
-- To analyze customer data and predict the likelihood of accepting a personal loan offer.
-- To help the bank in better customer targeting for loan products.
+The dataset includes the following features:
 
-## 📊 Dataset Description
+- **Age**: Customer's age  
+- **Experience**: Years of work experience  
+- **Income**: Annual income  
+- **Family**: Family size  
+- **CCAvg**: Monthly credit card spending  
+- **Education**: Education level (1: Undergrad, 2: Graduate, 3: Advanced)  
+- **Mortgage**: Mortgage loan value  
+- **Securities Account**, **CD Account**, **Online**, **CreditCard**: Product usage flags  
+- **Personal Loan**: Target variable (1 = Accepted, 0 = Not Accepted)  
 
-The dataset includes the following key columns:
+## 📈 Methodology
 
-- **Age**: Age of the customer
-- **Experience**: Years of professional experience
-- **Income**: Annual income of the customer
-- **Family**: Family size of the customer
-- **CCAvg**: Average spending on credit cards
-- **Education**: Level of education (1: Undergrad, 2: Graduate, 3: Advanced/Professional)
-- **Mortgage**: Mortgage value
-- **Securities Account**, **CD Account**, **Online**, **CreditCard**: Binary flags for account/services
-- **Personal Loan**: Target variable (1 = Accepted, 0 = Not Accepted)
+- Data cleaning and formatting in Excel  
+- Use of **pivot tables** to analyze trends and relationships  
+- Visualizations with Excel charts (bar, pie, column)  
+- Identification of key influencing factors based on summary statistics
 
-## 🔧 Tools & Technologies
+## 🔍 Key Insights
 
-- **Python**, **Pandas**, **NumPy**
-- **Matplotlib**, **Seaborn** (for visualization)
-- **Scikit-learn** (for modeling)
-- **Jupyter Notebook** / Google Colab
-
-## 📈 ML Models Used
-
-- Logistic Regression
-- Decision Tree
-- Random Forest
-- Support Vector Machine (SVM)
-- Model evaluation using Accuracy, Precision, Recall, F1-score, Confusion Matrix
-
-## 📌 Key Insights
-
-- Income and Credit Card usage show strong correlation with loan acceptance.
-- Customers with higher education levels are more likely to take loans.
-- Online banking and CD account users show higher loan conversion.
+- Higher income and credit card usage are associated with higher loan acceptance.  
+- Customers with higher education levels tend to accept loans more often.  
+- Ownership of CD accounts and use of online banking also show higher loan acceptance rates.  
 
 ## 📁 Project Structure
 
-├── Bank_Personal_Loan_Modelling.xlsx   # Dataset file
-├── README.md                           # Project description
+├── Bank_Personal_Loan_Modelling.xlsx # Excel file with raw data and analysis
+├── README.md # Project overview and documentation
+
 
 
 ## ✅ Conclusion
-This project uses customer data to predict personal loan acceptance, helping banks target the right customers. The model improves marketing efficiency and supports better decision-making through data-driven insights.
+
+This project uses Excel to analyze personal loan data and extract business insights without any programming or machine learning. The pivot table summaries and visual charts help identify the key characteristics of customers who are more likely to accept loan offers, aiding in better decision-making for marketing and targeting.
+
+## 👤 Author
+
+**Rahil Bashir Shaikh**  
+📧 rahilshaikh0403@gmail.com  
+🔗 [LinkedIn](https://www.linkedin.com/in/rahilshaikh144)  
+💼 [GitHub](https://github.com/rahilshaikh0403)
 
